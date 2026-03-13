@@ -13,7 +13,7 @@ import numpy as np
 from qiskit import QuantumCircuit, transpile
 from qiskit.quantum_info import Statevector
 from qiskit.circuit.library import QFTGate
-from qiskit.extensions import DiagonalGate
+from qiskit.circuit.library import DiagonalGate
 from qiskit_aer import AerSimulator
 
 
